@@ -1,0 +1,126 @@
+.side-bar{
+  flex: 1;
+  border-right-style: solid;
+  border-width: 2px;
+  background-color :#d0bdf4ed;
+  height: 1000px;
+}
+
+
+.profile-img{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-right: -4px;
+}
+
+.info-section{
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+}
+
+.side-bar-header{
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a0d2eb; 
+}
+
+.log-out-button{
+  border: none;
+  border-radius: 4px;
+  width: 80px;
+  padding: 6px 10px;
+  transition : all 0.3s
+}
+
+.log-out-button:hover {
+  background-color: rgb(172, 168, 246);
+}
+
+.logo{
+  font-family: roboto;
+  font-weight: 800;
+  font-size: 18px;
+  color:  #12343b;
+}
+
+.id-name{
+  font-family: roboto;
+  font-weight: 500;
+  color:  #12343b;
+}
+
+.search-section {
+  border-bottom-width: 1px;
+  border-color: rgb(83, 82, 82);
+  border-bottom-style: solid;
+}
+
+.search-input{
+  display: flex;
+  flex-direction: column;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding: 20px;
+  width: 100%;
+}
+
+
+.user{
+  display: flex;
+  flex: row;
+  align-items: center;
+  padding: 20px;
+  gap : 10px;
+  transition: 0.3s;
+}
+
+.user:hover{
+  background-color: rgba(0, 0, 0, 0.16);
+}
+
+.data{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.user-image{
+  border-radius: 35px;
+  object-fit: cover;
+}
+
+.user-name{
+  font-weight: 700;
+  font-size: 20px;
+}
+
+@media (max-width: 850px){
+  .logo{
+    display: none;
+  }
+}
+
+.userChat{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 14px;
+  padding: 20px;
+  transition: all 0.4s;
+}
+.userChat:hover{
+  background-color: rgba(0, 0, 0, 0.211);
+}
+
+.image-recieve{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}

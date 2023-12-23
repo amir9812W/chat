@@ -1,0 +1,92 @@
+
+.chat {
+  background-color:  rgb(232, 255, 217);
+  flex: 2;
+  position: relative;
+  transition: all 1s;
+}
+.chat-header{
+  display: flex;
+  padding: 28.6px;
+  align-items: center;
+  background-color: #a0d2eb;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.user-name-nani{
+  font-weight: 500;
+  font-size: 20px;
+  color: #12343b;
+}
+.send-button{
+  padding: 14px 28px;
+  align-items: center;
+  display: flex;
+  border-radius: 20px;
+  border: none;
+  transition: all 0.3s;
+}
+
+.send-button:hover{
+  background-color: rgb(172, 168, 246);
+}
+
+.Enter{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.input-section{
+  display : flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #558bdc;
+  position: absolute;
+  z-index: 100;
+  right: 0px;
+  left: 0;
+  bottom: 0px;
+  height: 30px;
+}
+
+.option-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.recieved-message{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.cont{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+}
+
+.chat-data-recive{
+  background-color: rgb(255, 85, 85);
+  padding: 10px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+
+.Enter::placeholder{
+  color: rgb(255, 255, 255)
+}
+
+

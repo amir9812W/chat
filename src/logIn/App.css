@@ -1,0 +1,161 @@
+.App {
+  background-image: url('../images/gradient.png');
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: all 1s;
+}
+
+
+.text {
+  font-family: 'roboto';
+  font-weight : 800;
+  font-size: 40px;
+  display: inline-block;
+  margin: 0px;
+  text-align: center;
+  background: -webkit-linear-gradient(#BD7AB9, rgb(230, 240, 123));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.form-Container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-image: linear-gradient(to right, rgba(46, 159, 212, 0.736), rgba(60, 214, 178, 0.662));
+  padding : 80px 40px;
+  border-radius: 30px;
+  position: relative;
+}
+.circle {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(15, 15, 15);
+  border-radius: 50%;
+  position: fixed;
+  top: 34px;
+  right: 80px;
+  transition: all 1s;
+}
+.light-mode{
+  width: 90px;
+  height: 40px;
+  border: none;
+  background-color: white;
+  align-items: center;
+  border-radius: 10px;
+  transition: all 1s;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+}
+
+.light-mode:hover{
+  background-color: rgb(59, 91, 111);
+  color: white;
+}
+
+.dark-mode{
+  width: 90px;
+  height: 40px;
+  border: none;
+  background-color: rgb(48, 48, 48);
+  align-items: center;
+  border-radius: 10px;
+  transition: all 1s;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+}
+
+.circle-darkmode{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(205, 204, 204);
+  border-radius: 50%;
+  top: 34px;
+  right: 40px;
+}
+
+.input{
+  padding: 10px 20px;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+  transition: all 1s;
+  font-family: roboto;
+  font-weight: 300;
+  outline: none;
+}
+.input:hover{
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.674);
+}
+
+.sign-up-button{
+  border: none;
+  height: 45px;
+  margin-top: 10px;
+  border-radius: 18px;
+  transition: all .7s; 
+}
+.sign-up-button:hover{
+  border-radius: 40px;
+  background-color: rgba(73, 104, 205);
+  color: white;
+}
+.text1 {
+  color: white;
+  font-weight: 300;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+.chose-file-button{
+  transition: .5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chose-file-button:hover{
+  cursor: pointer;
+  color: white;
+}
+
+@media(min-width : 700px){
+  .form-Container{
+    width: 100%;
+  }
+}
+
+.file-panel{
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.file-panel:hover{
+  cursor: pointer;
+}
+
+.Adder-photo{
+  margin-bottom: -5px;
+  margin-right: 10px;
+}
+
+
+.app-darkmode{
+  background-image: url('../images/nani.png');
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: all 1s;
+}
+
+

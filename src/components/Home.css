@@ -1,0 +1,55 @@
+.Home{
+  height: 100vh;
+  margin: 0;
+  background-image: url('../images/digital.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+  position: relative;
+  transition: all 1s;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track{
+  background-color: rgba(0, 0, 0, 0.404);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 30px;
+  height: 30px;
+}
+
+.AApp-darkmode{
+  height: 100vh;
+  margin: 0;
+  background-image: url('../images/digital-art-neon-bubbles.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+  position: relative;
+  transition: all 1s;
+}
+
+
+p{
+  margin: 0;
+}
+
+.container-1{
+  width: 90%;
+  height: 80%;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.39);
+}
