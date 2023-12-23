@@ -121,7 +121,7 @@ function SignUp() {
 
           <button className='sign-up-button'>Sign up</button>
           <p className='text1'>You do have an account?
-            <Link to ='/Login'>Log in</Link>
+            <Link to ='/chat'>Log in</Link>
           </p>
           {err && <span>Something went wrong</span>}
         </form>

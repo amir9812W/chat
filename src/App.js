@@ -19,7 +19,7 @@ function App() {
 
   const ProtectRoute = ({children}) =>{
     if(!currentUser){
-      return <Navigate to='/Login'/>
+      return <Navigate to='/chat'/>
     }else {
       return children
     }
@@ -34,7 +34,7 @@ function App() {
             <Home />
           </ProtectRoute>}/>
 
-          <Route path='Login' element={<Login />}/>
+          <Route path='chat' element={<Login />}/>
           <Route path = 'SignUp' element={<SignUp />}/>
         </Route>
       </Routes>
