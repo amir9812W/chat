@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/chat/static/css/main.0537c663.css",
+    "main.js": "/chat/static/js/main.3e96fe04.js",
+    "static/media/nani.png": "/chat/static/media/nani.ba84c9144e11f98a60de.png",
+    "static/media/gradient.png": "/chat/static/media/gradient.5ca26bf566402a95854e.png",
+    "static/media/digital-art-neon-bubbles.jpg": "/chat/static/media/digital-art-neon-bubbles.fb80cbe086d67d0855e3.jpg",
+    "static/media/digital.jpg": "/chat/static/media/digital.6d7d866fc169b09765c6.jpg",
+    "static/media/icon-add.png": "/chat/static/media/icon-add.abdb27b0529e52d0fee9.png",
+    "index.html": "/chat/index.html",
+    "main.0537c663.css.map": "/chat/static/css/main.0537c663.css.map",
+    "main.3e96fe04.js.map": "/chat/static/js/main.3e96fe04.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0537c663.css",
+    "static/js/main.3e96fe04.js"
+  ]
+}
