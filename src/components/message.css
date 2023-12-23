@@ -1,0 +1,117 @@
+.messages {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #e5eaf5;
+  padding: 20px;
+  overflow-y: scroll;
+  height: calc(100% - 170px);
+  padding-top: 100px;
+  transition: all 1s;
+}
+
+.messages .message {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.messages .message p {
+  max-width: max-content;
+}
+
+.messages .message .chat-content {
+  transition: all 1s;
+  background-color: #a0d2eb;
+  padding: 10px;
+  border-radius: 0px 10px 10px 10px;
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.messages .message .section1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.messages .message .section1 .sender {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.messages .message.owner {
+  flex-direction: row-reverse;
+  gap: 10px;
+  align-items: center;
+}
+
+.messages .message.owner p {
+  background-color: #d0bdf4;
+  border-radius: 10px 0px 10px 10px;
+  max-width: max-content;
+}
+
+.messages .message.owner .time-sent {
+  background-color: transparent;
+}
+
+.messages2 {
+  transition: all 1s;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #0f2862;
+  padding: 20px;
+  overflow: scroll;
+  height: calc(100% - 170px);
+  padding-top: 100px;
+}
+
+.messages2 .message {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.messages2 .message p {
+  max-width: max-content;
+}
+
+.messages2 .message .chat-content {
+  transition: all 1s;
+  background-color: #f75990;
+  padding: 10px;
+  border-radius: 0px 10px 10px 10px;
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.messages2 .message .section1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.messages2 .message .section1 .sender {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.messages2 .message.owner {
+  flex-direction: row-reverse;
+  gap: 10px;
+  align-items: center;
+}
+
+.messages2 .message.owner p {
+  background-color: #00ddff;
+  border-radius: 10px 0px 10px 10px;
+  max-width: max-content;
+}
+
+.messages2 .message.owner .time-sent {
+  background-color: transparent;
+}
